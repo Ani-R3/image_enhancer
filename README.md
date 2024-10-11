@@ -1,4 +1,4 @@
-#image_enhancer
+# image_enhancer
 Overview
 This project enhances images using AI-based techniques. It leverages GFPGAN for face restoration, improving image quality while maintaining the original size.
 
