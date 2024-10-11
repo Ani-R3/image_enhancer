@@ -1,3 +1,4 @@
+#image_enhancer
 Overview
 This project enhances images using AI-based techniques. It leverages GFPGAN for face restoration, improving image quality while maintaining the original size.
 
@@ -18,7 +19,7 @@ bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # For Linux/macOS
-# or
+or
 venv\Scripts\activate  # For Windows
 3. Install Required Libraries
 Install all the dependencies listed in the requirements.txt file:
