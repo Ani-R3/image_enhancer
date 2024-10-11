@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eb4f4f;
+    margin: 30;
+    padding: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 60px 80px rgba(0, 0, 0, 0.712);
+    border-radius: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: hsl(167, 78%, 4%); /* a bright, calming blue */
+    text-shadow: 0 5px 20px rgb(98, 28, 211); /* adds a subtle shadow */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    transition: all 0.3s ease-in-out; /* adds a smooth transition effect */
+}
+
+h1:hover {
+    color: #241f1f; /* changes color on hover */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* increases shadow on hover */
+}
+
+.input-group {
+    margin-bottom: 34px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="file"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom, #ffcccc, #ffa07a, #ff69b4);
+    background-color:#ffcccc;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.1); /* scale up by 10% */
+
+}
+
+#result {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #3673b4;
+    font-weight: bold;
+}

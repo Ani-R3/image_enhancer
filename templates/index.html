@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Restoration</title>
+
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Restoration</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="file">Select an image to restore:</label>
+            <input type="file" id="file" name="file" accept="image/*" required>
+            <button type="submit">Make It Better</button>
+        </form>
+
+        <!-- The server will render this section with the restored image -->
+        {% if restored_image_url %}
+        <div class="restored-image">
+            <h2>Restored Image:</h2>
+            <img src="{{ restored_image_url }}" alt="Restored Image">
+            <br>
+            <a href="{{ download_link }}" download>
+                <button>Download Restored Image</button>
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
