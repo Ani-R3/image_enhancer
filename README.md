@@ -10,7 +10,7 @@ Setup Instructions
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/yourusername/image-enhancer.git
+git clone https://github.com/Ani-R3/image_enhancer.git
 cd image-enhancer
 2. Create a Python Virtual Environment
 Before proceeding, ensure you have Python installed. Create a virtual environment to manage project dependencies:
