@@ -2,7 +2,7 @@ flask
 gunicorn
 waitress
 torch==2.0.0
-torchvision==0.15.0  # Use compatible version
+torchvision==0.15.0
 pillow==8.2.0
 numpy==1.23.5
-opencv-python==4.5.2.52
+opencv-python==4.10.0.82  # Use a compatible version
