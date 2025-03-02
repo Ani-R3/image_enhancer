@@ -1,10 +1,9 @@
 flask
 gunicorn
 waitress
-torch==2.0.0
-torchvision==0.15.0
-pillow==9.0.0
-numpy==1.23.5
-opencv-python==4.10.0.82
-
+torch
+torchvision
+pillow
+numpy
+opencv-python
 
